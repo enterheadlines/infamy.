@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: #e60a75;
     color: #000;
     margin: 0;
     padding: 0;
@@ -9,8 +9,8 @@ body {
 header {
     text-align: center;
     padding: 2rem 0;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
+    background-color: #ff00dd;
+    border-bottom: 1px solid #3463c9;
 }
 main {
     padding: 1rem;
@@ -27,10 +27,11 @@ li {
 }
 
 a {
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #8b828d;
+    text-decoration: none;
 }
