@@ -1,15 +1,29 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #e60a75;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+
+    body {
+        background: linear-gradient(-45deg, #b42ad3, #7c29ca, #ab33a3, #ed3ba9);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+        height: 100vh;
+        color: white;
+        font-family: "Press Start 2P";
+        margin: 0px;
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
 header {
     text-align: center;
     padding: 2rem 0;
-    background-color: #ff00dd;
+    background-color: #f0e3ef;
     border-bottom: 1px solid #3463c9;
 }
 main {
